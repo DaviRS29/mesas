@@ -1,16 +1,21 @@
-# atomo
+# Atomo Comanda
 
-A new Flutter project.
+Atomo comanda.
 
-## Getting Started
+## Sobre o projeto
+O Atomo Comanda é um aplicativo complementar ao sistema Atomo, desenvolvido para o controle de mesas em restaurantes. Ele simplifica a gestão de pedidos e agiliza o atendimento ao cliente, conectando-se ao banco de dados centralizado.
 
-This project is a starting point for a Flutter application.
+## Como usar
 
-A few resources to get you started if this is your first Flutter project:
+1. Banco de dados:
+   - O banco de dados está compactado no diretório deste projeto.
+   - Para utilizá-lo:
+     - Extraia o conteúdo no disco C: ou altere a rota no arquivo de configuração da API.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2.API:
+  - A API incluída no projeto é responsável por intermediar as operações entre o aplicativo e o banco de dados.
+  - Certifique-se de executá-la no computador onde o banco de dados está localizado.
+Observações
+  - O aplicativo depende da API estar em execução para funcionar corretamente.
+  - Certifique-se de que a configuração de rede permite a comunicação entre o aplicativo e a API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
