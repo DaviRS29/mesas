@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atomo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="atomo"
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
+
+
+</application>
+    </manifest>
